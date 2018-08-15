@@ -1,10 +1,33 @@
-import React from 'react'
+import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import AgeTeller from './components/AgeTeller'
+import { Jumbotron, Button } from 'react-bootstrap'
+import Header from './components/Header/Header'
 
+class Home extends Component {
   
-  ReactDOM.render(
-    <AgeTeller />,
-    document.getElementById('root')
-  );
+  render() {
+    return( 
+      <div>
+        <div class="container">
+        <Header/>
+        </div>
+        <div class="container">
+        <Jumbotron>
+          <h1>Swim. Bike. Run.</h1>
+          <p>
+            Let's go get it!
+          </p>
+          <p>
+            <Button bsStyle="primary">Learn more</Button>
+          </p>
+        </Jumbotron>
+        </div>
+      </div>
+    )
+  }
+}
 
+ReactDOM.render(
+  <Home />,
+  document.getElementById('root')
+)
