@@ -13,6 +13,10 @@ app.get('/rank', (req, res) => {
   res.render('rank')
 })
 
+app.get('/new', (req, res) => {
+  res.render('new')
+})
+
 app.listen(3001, () => {
   console.log('Server started!')
 })
