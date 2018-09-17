@@ -1,17 +1,23 @@
 {
   "name": "swim-bike-run",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.4.2",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buzonxxxx/swim-bike-run.git"
+  },
+  "author": "Louis Liao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buzonxxxx/swim-bike-run/issues"
+  },
+  "homepage": "https://github.com/Buzonxxxx/swim-bike-run#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
   }
 }
