@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>New</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  {{>header}}
+  <div class='ui main text container segment'>
+    <div class='ui huge header'>請輸入本月累積訓練量</div>
+    <form class='ui form' action='/blogs' method='POST'>
+      <div class='field'>
+        <label>游泳</label>
+        <div class='ui right labeled input'>
+          <input type="text" name="blog[title]" placeholder=''>
+          <div class="ui basic label">km</div>
+        </div>
+      </div>
+      <label>騎車</label>
+      <div class='field'>
+        <div class='ui right labeled input'>
+          <input type="text" name="blog[title]" placeholder=''>
+          <div class="ui basic label">km</div>
+        </div>
+      </div>
+      <label>跑步</label>
+      <div class='field'>
+        <div class='ui right labeled input'>
+          <input type="text" name="blog[title]" placeholder=''>
+          <div class="ui basic label">km</div>
+        </div>
+      </div>
+
+      <input class='ui violet big basic button' type="submit">
+    </form>
+  </div>
+</body>
+
+</html>
